@@ -1,0 +1,37 @@
+body{
+padding: 0;
+margin: 0;
+background-image: url(fog.jpg);
+background-size: cover;
+
+}
+.signIn{
+ border: 3px solid;
+width: 300px;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+.signIn h2{
+    color:black;
+    font-size: 40px;
+    font-weight:bold;
+    text-align: center;
+}
+.signIn input{
+    padding: 6px;
+    margin: 6px;
+    border: 1px solid;
+    margin-left: 60px;
+    outline: none;
+    background: rgba(0,0,0,0.3);  /*to give them a transparent look*/
+}
+.signIn button{
+    padding: 6px;
+    margin: 6px; 
+    margin-left: 60px;
+    width: 185px;
+    color: white;
+    background: black;
+}
