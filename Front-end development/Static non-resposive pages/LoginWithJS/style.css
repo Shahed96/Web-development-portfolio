@@ -1,0 +1,51 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-image: url(mosque.jpg);
+    background-size: cover;
+}
+.login{
+   border: 1px solid white ;
+   background: rgba(0,0,0,0.3); /*transparent look*/
+   width: 300px;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   }
+   .login h2{
+       text-align: center;
+       color: white;
+   }
+
+   .login input{
+       
+    padding: 6px;
+    margin: 6px;
+    border: 1px solid white;
+    border-radius: 3pc;
+    margin-left: 60px;
+    outline: none;
+    background: rgba(0,0,0,0.3);  /*to give them a transparent look*/
+   }
+   /*when I focus on a text feild*/
+   .login input:focus{
+     width: 70%;
+     border-color: tomato;
+
+   }
+
+   .login button{
+    padding: 6px;
+    margin: 6px;
+    border: 1px solid white;
+    border-radius: 3pc;
+    margin-left: 120px;
+    cursor: pointer;
+    background: rgba(0,0,0,0.3);  /*to give them a transparent look*/
+    color: white;
+   
+   }
+   .login button:hover{
+       border-color: tomato;
+   }
