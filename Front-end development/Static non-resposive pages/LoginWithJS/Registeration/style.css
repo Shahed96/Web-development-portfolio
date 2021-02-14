@@ -1,0 +1,71 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: aliceblue;
+}
+.reg{
+    width: 600px;
+    height:400px;
+    border: 3px solid;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.reg h2{
+    margin-top: 0;
+    background: rgba(0,0,0,0.3); /*transparent look*/
+    text-align: center;
+}
+.reg input{
+    padding: 3px;
+    margin: 6px;
+    
+}
+.reg .Fname{
+    margin-left: 44px;
+}
+.reg .com{
+    margin-left: 20px;
+    width: 366px;
+    margin-top: 20px;
+}
+.reg .email{
+    margin-left: 39px;
+    width: 366px;
+    margin-top: 20px;
+}
+.reg .phone{
+    margin-left: 44px; 
+    margin-top: 20px;
+    
+}
+.reg .ph{
+    margin-left: 137px; 
+    font-size: 14px;
+    position: relative;
+    top: -6px;
+}
+.reg .AC{
+    margin-left: 88px; 
+    font-size: 14px;
+    position: relative;
+    top: -6px;
+}
+.reg #sub{
+    margin-top: 20px;
+    margin-left: 29px;
+    margin-bottom: 20px ; 
+}
+
+.reg ul{
+    display: inline-flex;
+   
+    list-style: none;
+}
+.reg ul li{
+    padding-right: 20px;
+}
+.reg .l{
+    margin-left: 4px;
+}
