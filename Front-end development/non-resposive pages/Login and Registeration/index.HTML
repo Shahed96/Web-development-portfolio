@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta charset="utf-8">
+<title>Transparent entry form</title>
+<link rel="stylesheet" href="style.css">
+<script src="App.js"></script>
+
+</head>
+
+<body>
+<div class="form">
+    <form action="" class="Reg">
+    <input type="text" name="username" id="username" placeholder="username"><br>
+    <input type="password" name="password" id="password" placeholder="password"><br>
+    <input type="email" name="email" id="email" placeholder="E-mail"><br>
+    <button>Creat</button>
+    <p class="message">Have an account? <a href="#">Login</a> </p>
+    </form>
+
+
+    <form action="" class="login">
+        <input type="text" name="username" id="username" placeholder="username"><br>
+        <input type="password" name="password" id="password" placeholder="password"><br>
+        <button>LOGIN</button>
+        <p class="message">Don't have account? <a href="#">Register</a> </p>
+
+    </form>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
+<script>
+    $('.message a').click(function(){
+ $('form').animate({height:"toggle", opacity:"toggle"},"slow");
+    });
+</script>
+
+</body>
+</html>
