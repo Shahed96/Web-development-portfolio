@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+
+}
+.container ul{
+    list-style: none;
+    display: inline-flex;
+    margin-left: 280px;
+    margin-top: 20px;
+}
+.container ul li{
+    background-color: #8E44AD;
+    height: 50px;
+    width: 150px;
+    border: 1px solid white;
+    line-height: 50px;
+    text-align: center;
+    color: white;
+    font-size: 19px;
+   
+
+}
+.container ul li:hover{
+    cursor: pointer;
+    background-color:#85C1E9 ;
+}
+.sub-menu{
+    display: none;
+}
+.container ul li:hover .sub-menu{
+    display: block;
+    position: absolute;
+    margin-left: -281px;
+    margin-top: -19px;
+}
+.container ul li:hover .sub-menu ul{
+    display: block;
+}
+
+
+
+
+
+
