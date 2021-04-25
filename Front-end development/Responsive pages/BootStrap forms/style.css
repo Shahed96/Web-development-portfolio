@@ -1,0 +1,42 @@
+body{
+    background-color: bisque;
+}
+
+
+
+
+/*for xs devices:*/
+@media(min-width:0)and (max-width:575px){
+    .manage{
+        width:150px;
+        text-align: center;
+        margin: auto;
+        display: flex;
+         }
+
+
+}
+/*for s devices:*/
+   @media (min-width: 576px)and (max-width: 768px) {
+    .manage{
+        width:150px;
+        text-align: center;
+        margin: auto;
+        display: flex;
+         }
+
+   }
+   /*for l devices:*/
+   @media(min-width:1200px){
+
+    .manage{
+   width:150px;
+   text-align: center;
+   margin: auto;
+   display: flex;
+    }
+   
+   }
+  
+
+

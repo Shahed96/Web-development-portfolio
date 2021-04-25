@@ -1,0 +1,23 @@
+
+ .h:hover{
+background-color:chocolate;
+
+}
+.d{
+    background-color: darkgray;
+}
+li:active{
+    background-color: rgb(164, 164, 192);
+}
+li:focus{
+    background-color: rgb(164, 164, 192);
+}
+li:hover{
+    background-color: rgb(164, 164, 192);
+}
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover{
+    background-color: rgb(164, 164, 192);
+}
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover{
+    background-color: rgb(164, 164, 192);
+}
